@@ -8,7 +8,7 @@ with open("TableauValeurs.csv") as fichier :
     spamreader=csv.reader(fichier, delimiter=';',quotechar='"')
     for row in spamreader:
         InfoCarte.append(row)
-    fichier.close
+    fichier.close()
 print(InfoCarte)
 
 class page_acceuil():
